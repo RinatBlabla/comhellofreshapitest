@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags={"@Test"},
+        tags={"@Regress"},
         glue="steps",
         features = "classpath:features",
         plugin = {"html:target/cucumber-report/", "io.qameta.allure.cucumberjvm.AllureCucumberJvm"}
